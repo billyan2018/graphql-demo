@@ -1,0 +1,5 @@
+{
+"query":"{query:\n listAllEnabledLocales {\n id\n name\n locale\n }\n listAllTimezones{\n id\n name\n }\n userById(userId:1) {\n fullName\n jobTitle\n defaultLocale {\n locale\n }\n timezone {\n id\n name\n }\n emails {\n id\n email\n primaryEmail\n }\n phones {\n id\n number\n primaryPhone\n }\n }\n}",
+"variables":"",
+"operationName":null
+}

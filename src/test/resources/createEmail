@@ -1,0 +1,5 @@
+{
+"query":"{query:\n createEmail(\n newEmail:\n {\n email:\"abc@abc.com\",\n notificationEnabled:true,\n user:{id:1,username:\"abc@abc.com\"}\n }\n ){\n id\n email\n primaryEmail\n }\n}",
+"variables":"",
+"operationName":null
+}
